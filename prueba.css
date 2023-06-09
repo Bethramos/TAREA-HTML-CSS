@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;500;900&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;500;900&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@200;500;900&family=Rubik&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.envelope
+{
+    justify-content: center;
+}
+.contactos{
+    display:flex;
+    justify-content: center;
+    background-color: #FDC3C6;
+    font-family: 'Rubik', sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    text-align: center;
+    
+}
+.contactos p{
+    padding: 5px;
+}
+
+.Welcome
+{
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+}
+
+.slogan
+{
+    font-family:'Rubik', sans-serif;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
+    padding: 40px;
+}
+
+.menu1
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: large;
+    padding: 12px;
+
+}
+
+
+.logo img{
+
+    object-fit: contain;
+    clip-path: circle(35%);
+    height: 200px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+
+}
+
+nav{
+    background-color: #FDC3C6;
+    text-align: center;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+
+}
+h2{
+
+    font-size: 40px;
+}
+.titulo-productos
+{
+    
+    font-size: 60px;
+    font-family: 'Sofia', cursive;
+    font-style: italic;
+    text-align: center; 
+    padding: 45px;
+
+    
+}
+
+.contenedor-productos
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    font-family:'Rubik', sans-serif;
+}
+
+.cuadro1
+{
+    font-size: larger;
+    font-family: 'Sofia', cursive;
+    font-style: italic;
+}
+
+.Tarjeta-producto
+{
+    background-color: #FDC3C6;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.Tarjeta-producto img{
+    object-fit: cover;
+}
+
+.contenedor-tradicionales
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    font-family:'Rubik', sans-serif;
+    padding: 30px;
+}
+
+.productotradicional{
+    object-fit: cover;
+}
+.productotradicional
+{
+    background-color: #FDC3C6;
+    text-align: center;
+    padding: 30px;
+    
+
+}
+
+.cuadro
+{
+    font-size: larger;
+    font-family: 'Sofia', cursive;
+    font-style: italic;
+}
+
+
+.horneamos
+{
+    font-family: 'Sofia', cursive;
+    font-style: italic;
+    font-size: 500%;
+    text-align: center;
+    padding: 80px;
+}
+
+.footer
+{
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+    padding: 20px;
+}
+
+.contactinfo
+{
+    padding: 75px;
+    border: 1px solid #3f3d3d;
+    background-color: #facfe8;
+    text-align: center;
+    
+}
+
+.contactinfo h2
+{
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Sofia', cursive;
+}
+
+.contactinfo p
+{
+    margin-bottom: 5px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+}
+
+.siguenos{
+    font-family: 'Sofia', cursive;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.redes
+{
+   display: inline-block;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.ubicacion h2
+{
+    text-decoration: none;
+}
+
+.mapa
+{
+    margin: 0%;
+    padding: 10%;
+}
+
+
+
+/*Media Query*/
+
+@media(max-width:798px)
+{
+.Encabezado{max-width:50%}
+}
+
+
+
+
